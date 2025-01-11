@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Bricolage';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./../asset/font/BricolageGrotesque.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'SpaceGrotesk';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./../asset/font/SpaceGrotesk.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'DMSans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./../asset/font/DMSans.ttf) format('truetype');
+    }
+
+    @font-face {
+        font-family: 'JetBrainsMono';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(./../asset/font/JetBrainsMono.ttf) format('truetype');
+    }
+}
